@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const BACKEND_URL = "https://askmynotes-backend-pt6z.onrender.com";
+  const BACKEND_URL = "https://new-askmynotes-1-w2x1.onrender.com";
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
